@@ -135,9 +135,10 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 60,   // lebih natural
+      backSpeed: 30,   // hapus agak cepat
+      backDelay: 1000, // jeda sebelum hapus
+      smartBackspace: true // biar nggak ulang ketik dari awal kalau kata mirip
     });
   }
 
